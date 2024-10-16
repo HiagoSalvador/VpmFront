@@ -1,4 +1,4 @@
-export type Product = {
+export type ProductEvaluation = {
     image: string;
     title: string;
     description: string;
