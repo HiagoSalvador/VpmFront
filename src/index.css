@@ -1,3 +1,15 @@
+:root {
+  --primary-color: #ADD8E6;   
+  --secondary-color: #FFFFFF; 
+  --tertiary-color: #3498DB;  
+  --button-color: #007BFF;    
+  --accent-color: #116BB2;   
+  --text-color: #000000;      
+  --gold-color: gold; 
+  --border-color: #ddd; 
+  --hover-color: #f1f1f1; 
+}
+
 body {
   margin: 0;
   padding: 0;

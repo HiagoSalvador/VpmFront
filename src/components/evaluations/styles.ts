@@ -3,19 +3,18 @@ import styled from "styled-components";
 export const StyledCarousel = styled.div`
   width: 100%;
   position: relative;
-  
 
-  .swiper-button-next, 
+  .swiper-button-next,
   .swiper-button-prev {
-    color: #116BB2; 
+    color: var(--accent-color);
   }
 
   .swiper-pagination-bullet {
-    background-color: #000; 
+    background-color: var(--text-color);
   }
 
   .swiper-pagination-bullet-active {
-    background-color: #116BB2; 
+    background-color: var(--accent-color);
   }
 `;
 
@@ -25,11 +24,10 @@ export const StyledSwiperWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
- 
 `;
 
 export const TitleFeedback = styled.h2`
-  color: #000;
+  color: var(--text-color);
   text-align: center;
   margin-top: 5rem;
   font-family: 'Montserrat', sans-serif;
@@ -43,13 +41,13 @@ export const StyledSlide = styled.div`
   justify-content: center;
   width: 23rem;
   height: 17rem;
-  background-color: #fff;
+  background-color: var(--secondary-color);
   border-radius: 5px;
-  border: 1px solid #0077B6;
+  border: 1px solid var(--button-color);
   margin-left: 0.1rem;
 
   h3 {
-    color: #116BB2;
+    color: var(--accent-color);
     text-align: center; 
   }
 
@@ -66,7 +64,7 @@ export const StyledSlide = styled.div`
 `;
 
 export const Rating = styled.div`
-  color: gold; 
-  font-size: 1.2em; 
-  margin-top: 0.5em; 
+  color: var(--gold-color);
+  font-size: 1.2em;
+  margin-top: 0.5em;
 `;
