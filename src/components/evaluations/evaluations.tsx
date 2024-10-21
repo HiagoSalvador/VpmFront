@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
 import { StyledCarousel, StyledSwiperWrapper, StyledSlide, TitleFeedback, Rating } from './styles';
 import { evaluationsList } from '../../data/evaluationsList'; 
-import { ProductEvaluation } from '../../types/Product'; 
+import { ProductEvaluation } from '../../types/ProductEvaluations'; 
 
 const Carousel: React.FC = () => {
   const swiperRef = useRef<any>(null); 

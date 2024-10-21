@@ -1,4 +1,4 @@
-import { ProductEvaluation } from "../types/Product";
+import { ProductEvaluation } from "../types/ProductEvaluations";
 
 // posteriormente substituir pela chamada a API para buscar as avaliacoes
 export const evaluationsList: ProductEvaluation[] = [
