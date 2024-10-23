@@ -3,13 +3,13 @@
   --secondary-color: #FFFFFF; 
   --tertiary-color: #3498DB;  
   --button-color: #007BFF;    
-  --button-hover-color: #0077B6; /* Nova variável para a cor do botão */
+  --button-hover-color: #0077B6; 
   --accent-color: #116BB2;   
   --text-color: #000000;      
   --gold-color: gold; 
   --border-color: #ddd; 
   --hover-color: #f1f1f1; 
-  --light-blue-color: #CEE9FF; /* Nova variável para a borda */
+  --light-blue-color: #CEE9FF; 
 }
 
 body {

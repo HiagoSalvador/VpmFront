@@ -52,7 +52,8 @@ export const StyledSlide = styled.div`
   }
 
   p {
-    margin-top: 5px;
+    margin-top: -10px;
+    margin-left: 10px;
     align-self: self-start;
     font-family: 'Montserrat Alternates', sans-serif;
   }

@@ -35,7 +35,7 @@ const Header: React.FC = () => {
       </Logo>
       <SearchBar>
         <SearchInput type="text" placeholder="O que você está procurando?" />
-        <img src={Lupa} alt="Ícone de pesquisa" />
+        <img src={Lupa} alt="Icone de pesquisa" />
       </SearchBar>
       <Nav>
         <NavItem
@@ -44,7 +44,7 @@ const Header: React.FC = () => {
         >
           <Button $bgColor="#ADD8E6">
             Produtos
-            <img src={Opcoes} alt="Ícone de opções" />
+            <img src={Opcoes} alt="Icone de opções" />
           </Button>
           <DropdownMenu $isOpen={isDropdownOpen} aria-expanded={isDropdownOpen}>
             <DropdownItem>Produto 1</DropdownItem>
@@ -60,7 +60,7 @@ const Header: React.FC = () => {
         </NavItem>
       </Nav>
       <CartButton onClick={handleCartClick}>
-        <img src={Carrinho} alt="Ícone do carrinho de compras" />
+        <img src={Carrinho} alt="Icone do carrinho de compras" />
         Carrinho
       </CartButton>
     </HeaderContainer>
