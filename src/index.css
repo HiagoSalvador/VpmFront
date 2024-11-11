@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap');
+
+:root {
+  /* Cores */
+  --color-light-blue: #ADD8E6;
+  --color-white: #FFFFFF;
+  --color-blue-dark: #3498DB;
+  --color-blue-primary: #007BFF;
+  --color-blue-hover: #0077B6;
+  --color-blue-accent: #116BB2;
+  --color-black: #000000;
+  --color-gold: gold;
+  --color-grey-light: #ddd;
+  --color-grey-hover: #f1f1f1;
+  --color-blue-lightest: #CEE9FF;
+  --color-blue-custom: #0062FF;
+  --color-grey-neutral: #E0E2E9;
+  --green: #28a745;
+
+
+  /* Fontes */
+  --font-roboto: 'Roboto', sans-serif;
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-inter: 'Inter', sans-serif;
+  --font-montserrat-alternates: 'Montserrat Alternates', sans-serif;
+  --font-poppins: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
