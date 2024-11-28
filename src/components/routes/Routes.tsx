@@ -5,6 +5,9 @@ import { LoginPage } from "../login/Login";
 import { SignUp } from "../register/SignUp";
 import { Cart } from "../cart/Cart";
 
+
+
+
 const AppRoutes: React.FC = () => {
   return (
     <Routes>
@@ -20,6 +23,8 @@ const AppRoutes: React.FC = () => {
       <Route path="/login" element={<LoginPage />} /> 
       <Route path="/signup" element={<SignUp />} />
       <Route path="cart" element={<Cart />} />
+   
+     
       
     </Routes>
   );

@@ -43,7 +43,7 @@ const Header: React.FC = () => {
             <img src={Opcoes} alt="Ícone de opções" />
           </Button>
           <DropdownMenu $isOpen={isDropdownOpen} aria-expanded={isDropdownOpen}>
-            <DropdownItem onClick={() => navigate('/casa')}>Casa</DropdownItem>
+            <DropdownItem onClick={() => navigate('/home')}>Casa</DropdownItem>
             <DropdownItem onClick={() => navigate('/construcao')}>Construção</DropdownItem>
             <DropdownItem>Automotivo</DropdownItem>
           </DropdownMenu>
